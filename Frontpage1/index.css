@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 94px;
+}
+.logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+.logo span{
+    font-size: 24px;
+    border-left: 2px solid #fff;
+    line-height: 23px;
+    padding: 2px 0 4px 0.8rem;
+
+}
+
+.nav button {
+    font-size: 24px;
+    color: white;
+    margin-left: 12px;
+}
+.submit{
+    background-color: black;
+    border-radius: 8px;
+    border: solid 1px white;
+    padding: 10px 20px 10px 20px;
+}
+
+.sign{
+    background-color: #4C5FD5;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.sign:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.titlesection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dadbf1;
+    height: 60vh;
+    font-size: 50px;
+}
+
+.titlesection h1{
+    margin-bottom: 20px;
+}
+.titlesection input{
+    width: 700px;
+    height:60px ;
+    padding-left: 20px;
+    font-size: 22px;
+    border-radius: 8px;
+    border: solid .5px rgb(102, 102, 250);
+}
+
+.logo img{
+    height: 120px;
+    width: 120px;
+}
+
+.atributes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 180px 80px 180px;
+    column-gap: 60px;
+    row-gap: 40px;
+}
+
+.box{
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    gap: 20px;
+}
+
+.box h2{
+    
+}
+
+.box img{
+    height: 84px;
+    width: 84px;
+}
+
+.box a{
+    font-size: 20px;
+}
+
+
+
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 320px;
+    padding: 20px 20px 50px 110px;
+}
+ul{
+     list-style: none;
+     padding: 0;
+}
+li{
+    margin-bottom: 6px;
+}
+
+li:hover{
+    
+   text-decoration:solid underline white 2px
+
+}
+.links{
+    display: flex;
+    flex-grow: 4;
+    gap: 50px;
+}
+
+
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.copiright{
+ display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+.copiright p{
+    font-size: 20px;
+}
+.copiright svg{
+    width: 138px;
+    margin-bottom: 16px;
+    
+}
