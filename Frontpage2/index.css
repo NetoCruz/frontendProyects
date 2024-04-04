@@ -6,14 +6,49 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    padding: 24px 0 24px 0;
 }
 .menu{
     display: flex;
     justify-content: space-around;
 }
+.buttons{
+  display: flex;
+  gap: 20px;
+  
+}
+.login{
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #00b289;
+  color: #00b289;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.login:hover{
+  color: white;
+  background-color: #00b289;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.start{
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border: none;
+  background-color: #00b289;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
 
 .menu a{
     margin-left: 20px;
+}
+
+.shape{
+  position: relative;
+  overflow: hidden;
 }
 
 .mainTitle{
@@ -130,6 +165,91 @@ display: flex;
     background-color: #fff;
     box-shadow: 0 0 60px 0 rgba(2,4,69,.05);
 }
+
+
+.phrase{
+  display: flex;
+    background-color: #f2faff;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.75rem;
+    margin-left: 22%;
+    width: 60%;
+    gap: 90px;
+}
+.accordionmenu{
+  margin-top: 100px;
+}
+.accordionmenu h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#00b289;
+  font-size:32px;
+}
+
+ul {
+  list-style:none;
+} 
+
+#accordion button:focus{
+  border-radius:0px;
+  outline:none;
+}
+#accordion button{
+    outline: none;
+    background-color:white; 
+    padding: 10px;   
+    border:none;
+    /* border-bottom: 1px solid darkslategrey;  */
+    color: #4c4d5f;
+    width: 100%;
+    text-align:left;
+    font-size:24px;
+    font-weight: 700;
+    border-radius:0px;
+}
+#accordion button:hover{
+  color: #00b289;
+}
+#accordion li{
+   /* border: 1px solid DarkSlateGray; */
+  border-bottom: none;
+
+}
+.acc-item-content{
+  padding: 0px 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.acc-item:last-child {
+  /* border-bottom: 1px solid DarkSlateGray; */
+}
+#accordion button::after{
+  content: "\002B";
+  font-weight: 900;
+  font-size: 22px;
+  float:right;
+}
+
+#accordion{
+  width:80%;
+  max-width: 800px;
+  min-width: 275px;
+  margin:auto;
+}
+.acc-item-content{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+#accordion button.active:after{
+    content: "\2212";
+  font-weight: 900;
+  font-size: 22px;
+  float:right;
+}
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -153,7 +273,7 @@ display: flex;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #00b289;
+    background-color: #00b289; 
     -webkit-transition: .4s;
     transition: .4s;
   }
