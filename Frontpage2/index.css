@@ -58,8 +58,78 @@ body{
     -ms-transform: rotate(-23deg);
     transform: rotate(-310deg);
 }
+.tables{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 10px 120px 10px 120px 
+  }
+
+.table{
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 4px;
+  background-color: white;
+  padding: 30px 50px 30px 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.popular-tag {
+  position: absolute;
+  left: auto;
+  top: 44px;
+    right: -214px;
+  bottom: auto;
+  width: 360px;
+  padding: 11px 100px;
+  background-color: #01b289;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.priceMonth{
+  display: flex;
+}
+
+.features{
+  font-size: 14px;
+}
 
 
+.calltoaction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  margin-top: 50px;
+}
+
+.benefits{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 120px 20px 120px;
+  gap: 40px;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 60px 0 rgba(2,4,69,.05);
+}
 /* The switch - the box around the slider */
 .switch {
     position: relative;
