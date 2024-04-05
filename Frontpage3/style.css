@@ -1,0 +1,220 @@
+/* 
+blue background #C3D8EB
+pink #ef798a
+yellow #f9e784
+*/
+body{
+    margin: 0;
+    background-color: #C3D8EB;
+}
+.navbar{
+   display: flex;
+   justify-content: flex-start;
+}
+.pages{
+    display: flex;
+    gap: 20px;
+}
+.pages a{
+
+}
+
+.header{
+    font-family:'Work Sans',sans-serif ;
+    
+    padding: 100px 30px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0;
+    
+}
+.social img{
+    height: 30px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+.title h1{
+    font-weight: 800;
+    font-size: 56px;
+    margin: 0;
+}
+.title button{
+    border-radius: 15px;
+    width: 36%;
+    padding: 14px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ef798a;
+    color: white;
+}
+.hello{
+    font-size:24px ;
+    font-weight: 300;
+}
+.maestra{
+    font-size: 24px;
+    font-weight: 400;
+}
+.profilepic{
+    height: 400px;
+    
+}
+
+.header p{
+    font-size: 16px;
+}
+.about{
+    background-color: white;
+   
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 130px;
+}
+.aboutme img{
+    height: 560px;
+    border-radius: 10px;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+}
+.interest{
+    display: flex;
+}
+
+.features{
+    position: absolute;
+    top: 88%;
+    left: 25%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.feat{
+    display: flex;
+    gap: 10px;
+}
+.feat h4{
+    margin: 0;
+}
+.feat img{
+    height: 30px;
+}
+
+.text-feat{
+    display: flex;
+    flex-direction: column;
+}
+.expertise{
+    background-color: #abd1f3;
+    padding-top: 80px;
+}
+.title_exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bars{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 20px 140px 20px 140px;
+}
+.barprogres{
+    height: 8px;
+    width: 100%;
+    border: 1px solid #ef798a;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+.textarea{
+    display: flex;
+    justify-content: space-between;
+}
+.progress{
+        width: 90%;
+        height: 100%;
+        background: #ef798a;
+        display: flex;
+        align-items: center;
+        transition: width 0.25s;
+        border-radius: 5px;
+        border-radius: 0px 5px 5px 0;
+        
+}
+.progress2 {
+    width: 80%;
+    height: 100%;
+    background: #ef798a;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+    border-radius: 0px 5px 5px 0;
+}
+.journey{
+     padding: 80px 0 80px 0;
+}
+.academic{
+     display: flex; 
+     justify-content: center;
+     gap: 120px;
+    
+}
+.school{
+     display: flex;  
+     flex-direction: column;
+
+}
+.schoolTitle{
+    display: flex;
+    align-items: center;
+}
+.grades{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grade{
+    display: flex;
+    flex-direction: column;
+    
+}
+.grade h4{
+  font-size: 20px;
+  margin: 0;
+}
+.grade p{
+    margin: 0;
+}
+.years{
+    font-size: 12px;
+    margin: 0;
+  }
