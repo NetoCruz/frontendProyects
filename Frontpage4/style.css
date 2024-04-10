@@ -103,5 +103,98 @@ body{
     flex-direction: column;
     align-items: center;
     color: #ff8b68;
+    margin-top: 150px;
+    
+}
+
+.title span{
+    margin-bottom: 150px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    padding: 20px 40px 20px 40px;
+}
+.footer h1 {
+    margin: 0;
+}
+.footer p {
+    margin: 0;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.description{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge {
+    background-color: #ff8d6b;
+    color: #212529;
+    width: 20%;
+    position: relative;
+    top: 30px;
+    right: -80%;
+    text-align: center;
+    z-index: 2;
+}
+.figure {
+    position: relative;
+  }
+  .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.Sirv.image-hover
+  {
+    opacity: 1;
+  }
+  
+.item img{
+    height: 400px;
+}
+.buttonHover{
+position: relative;
+}
+.price-hover{
+ margin-left: -68px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1a2456;
+    color: white;
+}
+.buttonHover button.price.price-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .2s;
+}
+ .description:hover button.price.price-hover{
+    opacity: 1;
+   
+    cursor: pointer;
+} 
+
+.item-5{
+    
+    grid-area: 3 / 1 / 4 / 3;
     
 }
