@@ -9,8 +9,21 @@ body{
     background-color:#1a2456;
     align-items: center;
     color: #ff8b68;
+    width: 96%;
 
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 96%;
+    z-index: 3;
+
+  }
+  
+  /* .sticky + .content {
+    padding-top: 60px;
+  } */
 
 .links{
     display: flex;
@@ -155,7 +168,7 @@ body{
     right: 0;
     left: 0;
     bottom: 0;
-    object-fit: contain;
+    object-fit: cover;
     opacity: 0;
     transition: opacity .2s;
   }
@@ -166,6 +179,8 @@ body{
   
 .item img{
     height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 .buttonHover{
 position: relative;
@@ -187,14 +202,33 @@ position: relative;
     opacity: 0;
     transition: opacity .2s;
 }
- .description:hover button.price.price-hover{
+
+.figure:hover button.price.price-hover
+  {
     opacity: 1;
    
     cursor: pointer;
-} 
+}  
 
 .item-5{
     
     grid-area: 3 / 1 / 4 / 3;
     
+}
+.phraseImg{
+
+}
+.phraseImg img{
+    width: 100%;
+    height: 80vh;
+}
+.phrase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    position: absolute;
+    left: 32%;
+    margin-top: 32px;
+
 }
