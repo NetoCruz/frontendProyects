@@ -232,3 +232,23 @@ position: relative;
     margin-top: 32px;
 
 }
+
+.catalog{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 16px;
+        padding: 20px 40px 20px 40px;
+    
+}
+
+.badge2 {
+    background-color: #ff8d6b;
+    color: #212529;
+    width: 30%;
+    position: relative;
+    top: 30px;
+    right: -70%;
+    text-align: center;
+    z-index: 2;
+}
