@@ -71,3 +71,16 @@ border-radius: 80px;
     justify-content: center;
     gap: 5px; 
 }
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
